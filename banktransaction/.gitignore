@@ -16,8 +16,8 @@ target/
 ### IntelliJ IDEA ###
 /.idea
 /.idea/
-/*.idea/
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
