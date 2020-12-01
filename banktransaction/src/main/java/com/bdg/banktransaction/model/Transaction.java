@@ -2,6 +2,7 @@ package com.bdg.banktransaction.model;
 
 import com.bdg.banktransaction.enums.TransactionStatus;
 import com.bdg.banktransaction.enums.TransactionType;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
