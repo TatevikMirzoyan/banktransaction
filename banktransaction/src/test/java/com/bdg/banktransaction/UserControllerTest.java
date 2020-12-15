@@ -66,17 +66,17 @@ public class UserControllerTest {
         assertEquals(userController.getById(id).getFirstName(), "Satenik");
     }
 
-    @Test
-    void addUser_withInvalidEmailAndPassword_userWillNotBeCreated() {
-        try {
-            User user = new User("Tatev", "Atoyan", "Tatev", "Tatev");
-            userController.addUser(user);
-            assertEquals(user.getPassword(), "Tatev");
-            assertEquals(user.getEmail(), "Tatev");
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
-    }
+//    @Test
+//    void addUser_withInvalidEmailAndPassword_userWillNotBeCreated() {
+//        try {
+//            User user = new User("Tatev", "Atoyan", "Tatev", "Tatev");
+//            userController.addUser(user);
+//            assertEquals(user.getPassword(), "Tatev");
+//            assertEquals(user.getEmail(), "Tatev");
+//        }catch (Exception e){
+//            System.out.println(e.getMessage());
+//        }
+//    }
 
 
 }
